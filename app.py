@@ -12,18 +12,7 @@ from surprise import accuracy
 from surprise import SVDpp
 from surprise.model_selection import cross_validate
 
-import joblib
-import random
 import warnings
-import time
-
-# from IPython.display import display, Image
-
-import requests
-from bs4 import BeautifulSoup
-import time
-
-
 # Suppress specific RuntimeWarning
 warnings.filterwarnings("ignore", category=RuntimeWarning)
 
